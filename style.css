@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#bg-main {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+#bg-center {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+}
