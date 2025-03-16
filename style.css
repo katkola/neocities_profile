@@ -1,17 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-#bg-main {
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-}
-
-#bg-center {
-    margin: auto;
-    height: fit-content;
-    width: fit-content;
-}
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+  *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    #bg-main{
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;    
+    }
+    #bg-center{
+        margin: auto;
+        height:fit-content;
+        width: fit-content;
+    }
+    .navbar{
+        margin: auto;
+        background-color: antiquewhite;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #test{
+        position: absolute;
+        width: 100px;
+        top: 10px;
+        left: 10px;
+    }
+    .croc{
+        position: absolute;
+        background-image: url("https://archives.bulbagarden.net/media/upload/thumb/c/cb/Fuecoco.png/250px-Fuecoco.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 90px;
+        height: 90px;
+    }
+    .bigfue{
+        background-image: url("https://archives.bulbagarden.net/media/upload/thumb/c/cb/Fuecoco.png/250px-Fuecoco.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 200px;
+        height: 200px;
+    }
+    #footer{
+        bottom:40px;
+    }
