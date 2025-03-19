@@ -43,3 +43,5 @@ testem.log
 Thumbs.db
 
 myblog/
+package-lock.json
+package.json
